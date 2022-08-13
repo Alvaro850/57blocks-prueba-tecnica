@@ -1,0 +1,10 @@
+
+# API Keys and Secret Variables
+.env
+
+# Build
+build
+
+# Node files
+./node_modules
+./bower_components
