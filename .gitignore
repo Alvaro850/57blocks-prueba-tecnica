@@ -6,5 +6,9 @@
 build
 
 # Node files
-./node_modules
-./bower_components
+node_modules/
+bower_components
+
+# Logs
+logs
+*.log

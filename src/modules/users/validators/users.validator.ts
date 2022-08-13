@@ -17,7 +17,7 @@ export const validate = (method): Array<ValidationChain | Middleware> => {
                     .withMessage("El formato del email no es válido"),
                 body("password", responseMessages[process.env.LANGUAGE].ERROR_VALIDATION_PASSWORD)
                     .exists()
-                    .matches(/(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{8,}$/, "i")
+                    .matches(new RegExp("", "i"))
             ]
         }
     }
