@@ -1,0 +1,468 @@
+[
+    {
+        "name": "Bulbasaur",
+        "pokedexNumber": {
+            "national": 1,
+            "johto": 226,
+            "hoenn": null,
+            "sinnoh": null,
+            "kalos": 80,
+            "alola": null
+        },
+        "types": [
+            "PLANTA",
+            "VENENO"
+        ],
+        "generation": 1,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Ivysaur",
+        "pokedexNumber": {
+            "national": 2,
+            "johto": 227,
+            "hoenn": null,
+            "sinnoh": null,
+            "kalos": 81,
+            "alola": null
+        },
+        "types": [
+            "PLANTA",
+            "VENENO"
+        ],
+        "generation": 1,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Venusaur",
+        "pokedexNumber": {
+            "national": 3,
+            "johto": 228,
+            "hoenn": null,
+            "sinnoh": null,
+            "kalos": 82,
+            "alola": null
+        },
+        "types": [
+            "PLANTA",
+            "VENENO"
+        ],
+        "generation": 1,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Charmander",
+        "pokedexNumber": {
+            "national": 4,
+            "johto": 229,
+            "hoenn": null,
+            "sinnoh": null,
+            "kalos": 83,
+            "alola": null
+        },
+        "types": [
+            "FUEGO"
+        ],
+        "generation": 1,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Charmeleon",
+        "pokedexNumber": {
+            "national": 5,
+            "johto": 230,
+            "hoenn": null,
+            "sinnoh": null,
+            "kalos": 84,
+            "alola": null
+        },
+        "types": [
+            "FUEGO"
+        ],
+        "generation": 1,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Charizard",
+        "pokedexNumber": {
+            "national": 6,
+            "johto": 231,
+            "hoenn": null,
+            "sinnoh": null,
+            "kalos": 85,
+            "alola": null
+        },
+        "types": [
+            "FUEGO"
+        ],
+        "generation": 1,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Squirtle",
+        "pokedexNumber": {
+            "national": 7,
+            "johto": 232,
+            "hoenn": null,
+            "sinnoh": null,
+            "kalos": 86,
+            "alola": null
+        },
+        "types": [
+            "AGUA"
+        ],
+        "generation": 1,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Wartortle",
+        "pokedexNumber": {
+            "national": 8,
+            "johto": 233,
+            "hoenn": null,
+            "sinnoh": null,
+            "kalos": 87,
+            "alola": null
+        },
+        "types": [
+            "AGUA"
+        ],
+        "generation": 1,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Blastoise",
+        "pokedexNumber": {
+            "national": 9,
+            "johto": 234,
+            "hoenn": null,
+            "sinnoh": null,
+            "kalos": 88,
+            "alola": null
+        },
+        "types": [
+            "AGUA"
+        ],
+        "generation": 1,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Chikorita",
+        "pokedexNumber": {
+            "national": 152,
+            "johto": 1,
+            "hoenn": null,
+            "sinnoh": null,
+            "kalos": null,
+            "alola": null
+        },
+        "types": [
+            "PLANTA"
+        ],
+        "generation": 2,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Bayleef",
+        "pokedexNumber": {
+            "national": 153,
+            "johto": 2,
+            "hoenn": null,
+            "sinnoh": null,
+            "kalos": null,
+            "alola": null
+        },
+        "types": [
+            "PLANTA"
+        ],
+        "generation": 2,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Meganium",
+        "pokedexNumber": {
+            "national": 154,
+            "johto": 3,
+            "hoenn": null,
+            "sinnoh": null,
+            "kalos": null,
+            "alola": null
+        },
+        "types": [
+            "PLANTA"
+        ],
+        "generation": 2,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Cyndaquil",
+        "pokedexNumber": {
+            "national": 155,
+            "johto": 5,
+            "hoenn": null,
+            "sinnoh": null,
+            "kalos": null,
+            "alola": null
+        },
+        "types": [
+            "FUEGO"
+        ],
+        "generation": 2,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Quilava",
+        "pokedexNumber": {
+            "national": 156,
+            "johto": 5,
+            "hoenn": null,
+            "sinnoh": null,
+            "kalos": null,
+            "alola": null
+        },
+        "types": [
+            "FUEGO"
+        ],
+        "generation": 2,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Typhlosion",
+        "pokedexNumber": {
+            "national": 157,
+            "johto": 6,
+            "hoenn": null,
+            "sinnoh": null,
+            "kalos": null,
+            "alola": null
+        },
+        "types": [
+            "FUEGO"
+        ],
+        "generation": 2,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Totodile",
+        "pokedexNumber": {
+            "national": 158,
+            "johto": 7,
+            "hoenn": null,
+            "sinnoh": null,
+            "kalos": null,
+            "alola": null
+        },
+        "types": [
+            "AGUA"
+        ],
+        "generation": 2,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Croconaw",
+        "pokedexNumber": {
+            "national": 159,
+            "johto": 8,
+            "hoenn": null,
+            "sinnoh": null,
+            "kalos": null,
+            "alola": null
+        },
+        "types": [
+            "AGUA"
+        ],
+        "generation": 2,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Feraligatr",
+        "pokedexNumber": {
+            "national": 160,
+            "johto": 9,
+            "hoenn": null,
+            "sinnoh": null,
+            "kalos": null,
+            "alola": null
+        },
+        "types": [
+            "AGUA"
+        ],
+        "generation": 2,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Treecko",
+        "pokedexNumber": {
+            "national": 252,
+            "johto": null,
+            "hoenn": 1,
+            "sinnoh": null,
+            "kalos": null,
+            "alola": null
+        },
+        "types": [
+            "PLANTA"
+        ],
+        "generation": 3,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Grovyle",
+        "pokedexNumber": {
+            "national": 253,
+            "johto": null,
+            "hoenn": 2,
+            "sinnoh": null,
+            "kalos": null,
+            "alola": null
+        },
+        "types": [
+            "PLANTA"
+        ],
+        "generation": 3,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Sceptile",
+        "pokedexNumber": {
+            "national": 254,
+            "johto": null,
+            "hoenn": 3,
+            "sinnoh": null,
+            "kalos": null,
+            "alola": null
+        },
+        "types": [
+            "PLANTA"
+        ],
+        "generation": 3,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Torchic",
+        "pokedexNumber": {
+            "national": 254,
+            "johto": null,
+            "hoenn": 4,
+            "sinnoh": null,
+            "kalos": null,
+            "alola": null
+        },
+        "types": [
+            "FUEGO"
+        ],
+        "generation": 3,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Combusken",
+        "pokedexNumber": {
+            "national": 256,
+            "johto": null,
+            "hoenn": 5,
+            "sinnoh": null,
+            "kalos": null,
+            "alola": null
+        },
+        "types": [
+            "FUEGO",
+            "LUCHA"
+        ],
+        "generation": 3,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Blaziken",
+        "pokedexNumber": {
+            "national": 257,
+            "johto": null,
+            "hoenn": 6,
+            "sinnoh": null,
+            "kalos": null,
+            "alola": null
+        },
+        "types": [
+            "FUEGO",
+            "LUCHA"
+        ],
+        "generation": 3,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Mudkip",
+        "pokedexNumber": {
+            "national": 258,
+            "johto": null,
+            "hoenn": 7,
+            "sinnoh": null,
+            "kalos": null,
+            "alola": null
+        },
+        "types": [
+            "AGUA"
+        ],
+        "generation": 3,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Marshtomp",
+        "pokedexNumber": {
+            "national": 259,
+            "johto": null,
+            "hoenn": 8,
+            "sinnoh": null,
+            "kalos": null,
+            "alola": null
+        },
+        "types": [
+            "AGUA",
+            "TIERRA"
+        ],
+        "generation": 3,
+        "createdBy": null,
+        "public": true
+    },
+    {
+        "name": "Swampert",
+        "pokedexNumber": {
+            "national": 260,
+            "johto": null,
+            "hoenn": 9,
+            "sinnoh": null,
+            "kalos": null,
+            "alola": null
+        },
+        "types": [
+            "AGUA",
+            "TIERRA"
+        ],
+        "generation": 3,
+        "createdBy": null,
+        "public": true
+    }
+]

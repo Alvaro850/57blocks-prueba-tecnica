@@ -11,7 +11,7 @@ import { Logger } from "../../../utils/logger";
 import { context } from "../../../utils/constants/module.constant";
 export const validate = (method): Array<ValidationChain | Middleware> => {
     switch (method) {
-        case "createUser": {
+        case "login": {
             return [
                 body("email")
                     .exists().withMessage(appMessages[process.env.LANGUAGE].ERROR_EMAIL_EXISTS)

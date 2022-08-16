@@ -4,12 +4,12 @@ import { Pagination } from "../../../../utils/models/pagination.model";
 
 export default class UserRepository {
     find = async (query: object, projection: object = {}, pagination: Pagination = { page: 1, limit: 0 }, sortOptions: object = {}): Promise<IUser[]> => {
-        return userConnection.find(query, projection).sort(sortOptions).skip((pagination.page - 1 * pagination.limit)).limit(pagination.limit)
+        return userConnection.find(query, projection).sort(sortOptions).skip(((pagination.page - 1) * pagination.limit)).limit(pagination.limit)
     }
     findOne = async (query: object, projection: object = {}): Promise<IUser> => {
         return userConnection.findOne(query, projection)
     }
-    create = async (user: IUser) => {
+    create = async (user: object) => {
         const newUser: IUser = new userConnection(user)
         return newUser.save()
     }
