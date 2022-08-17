@@ -7,11 +7,11 @@ The theme selected for this app are the Pokemons so the data saved on the databa
 ## **Aplication Info**
 
 <p align="center">
-  <a href="https://legalaidemo.com/" target="blank"><img src="https://brandslogos.com/wp-content/uploads/thumbs/nodejs-logo-vector.svg" width="512" alt="LegalAI Logo" /></a>
+  <img src="https://brandslogos.com/wp-content/uploads/thumbs/nodejs-logo-vector.svg" width="512" alt="LegalAI Logo" />
 </p>
 <p align="center">
-  <a href="https://legalaidemo.com/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" width="128" alt="LegalAI Logo" /></a>
-  <a href="https://legalaidemo.com/" target="blank"><img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png" width="128" alt="LegalAI Logo" /></a>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" width="128" alt="LegalAI Logo" />
+  <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png" width="128" alt="LegalAI Logo" />
 </p>
 
 The application is developed on Nodejs as the runtime environment. It is coded on TypeScript and compiled on JavaScript. Also this application use environment variables to diferent functionalities as db conections, and authorization. the .env file should be copied on the base folder of the project (as the same level of this file). To open the documentation you should open the apidoc folder after run de documentation command (showed below) and open index.html file on a browser. Also, this API supports two languages for the requests, in terms of validation and logs of the API you can choose them by changing the .env variable, and for the responses of the requests a param in query named language should be sent.
