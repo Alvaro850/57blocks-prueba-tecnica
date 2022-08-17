@@ -91,7 +91,7 @@ export class PokemonService {
     updateOnePokemon = async (updateOnePokemon: UpdatePokemonDto, language: string) => {
         const exists = await this.pokemonRepository.findOne({ _id: new Types.ObjectId(updateOnePokemon.id), createdBy: updateOnePokemon.tokenInfo.email, public: false })
         const numberIsUsed = await this.pokemonRepository.findOne({ "pokedexNumber.national": updateOnePokemon.nationalPokedexNumber })
-        if (exists) {
+        if (!exists) {
             throw new Error(`${AppCodes.COD_RESPONSE_ERROR_UNAUTHORIZED}`)
         }
         if (numberIsUsed) {
@@ -115,7 +115,7 @@ export class PokemonService {
     }
     deleteOnePokemon = async (deleteOnePokemon: DeletePokemonDto, language: string) => {
         const exists = await this.pokemonRepository.findOne({ _id: new Types.ObjectId(deleteOnePokemon.id), createdBy: deleteOnePokemon.tokenInfo.email, public: false })
-        if (exists) {
+        if (!exists) {
             throw new Error(`${AppCodes.COD_RESPONSE_ERROR_UNAUTHORIZED}`)
         }
         const updatedPokemon = await this.pokemonRepository.deleteOne({ _id: new Types.ObjectId(deleteOnePokemon.id), createdBy: deleteOnePokemon.tokenInfo.email })
