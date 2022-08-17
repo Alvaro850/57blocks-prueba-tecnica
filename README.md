@@ -14,7 +14,42 @@ The theme selected for this app are the Pokemons so the data saved on the databa
   <a href="https://legalaidemo.com/" target="blank"><img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png" width="128" alt="LegalAI Logo" /></a>
 </p>
 
-The application is developed on Nodejs as the runtime environment. It is coded on TypeScript and compiled on JavaScript.
+The application is developed on Nodejs as the runtime environment. It is coded on TypeScript and compiled on JavaScript. Also this application use environment variables to diferent functionalities as db conections, and authorization. the .env file should be copied on the base folder of the project (as the same level of this file). To open the documentation you should open the apidoc folder after run de documentation command (showed below) and open index.html file on a browser. Also, this API supports two languages for the requests, in terms of validation and logs of the API you can choose them by changing the .env variable, and for the responses of the requests a param in query named language should be sent.
+
+### **Requirements**
+- Git installed on the computer
+- Nodejs version 14.17.6
+- Node package manager (npm) version 6.14.15
+
+
+### **Steps to run the app:**
+In order to run the application follow the next steps:
+1. clone the git repository using the following command: 
+```bash
+PS C:/../../57-blocks-prueba-tecnica> git clone https://github.com/Alvaro850/57blocks-prueba-tecnica/
+```
+2. Then switch to the branch called "master" you can use the following command:
+```bash
+PS C:/../../57-blocks-prueba-tecnica> git checkout origin master
+```
+3. Then copy the .env file in the main directory.
+4. Now you shoul install all the packages with the command:
+```bash
+PS C:/../../57-blocks-prueba-tecnica> npm i
+```
+5. Next you should build the application in order to start it in production mode.
+```bash
+PS C:/../../57-blocks-prueba-tecnica> npm run build
+```
+6. At the end you should start the app with the following command:
+```bash
+PS C:/../../57-blocks-prueba-tecnica> npm run start
+```
+
+You should see a message like this:
+```
+PS C:/../../57-blocks-prueba-tecnica> [INFO] August 16th 2022, 8:19:36 pm - [Aplicación]: Server is running on http://localhost:3000
+```
 
 ## **Database**
 

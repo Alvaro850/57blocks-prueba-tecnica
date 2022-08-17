@@ -96,7 +96,6 @@ export class PokemonController {
         } catch (error) {
             this.logger.error(context[process.env.LANGUAGE].POKEMONS, appMessages[process.env.LANGUAGE].POKEMON_DELETE_ERROR)
             console.log(error)
-            console.log("entró aqui")
             if (error.message === "1007") {
                 return res.status(HttpCodes.UNAUTHORIZED).send(new ResponseOperation(false, appMessages[req.query.language.toString() ? req.query.language.toString() : process.env.LANGUAGE].POKEMON_UNAUTHORIZED_ACTION, AppCodes.COD_RESPONSE_ERROR_UNAUTHORIZED))
             } 

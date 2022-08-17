@@ -2,12 +2,13 @@
   "name": "57blocks-prueba-tecnica",
   "version": "1.0.0",
   "description": "Prueba técnica para la empresa 57blocks, REST API basada en colecciones de Pokemon. ",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
-    "start": "tsc && node build/app.js",
+    "start": "node build/index.js",
+    "build": "tsc",
     "start:dev": "ts-node-dev src/index.ts",
     "start:debug": "ts-node --files src/index.ts --inspect",
-    "start:doc":"apidoc -i src -o apidoc",
+    "start:doc": "apidoc -i src -o apidoc",
     "test": "test"
   },
   "repository": {
@@ -31,8 +32,9 @@
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/mongoose": "^5.11.97",
-    "@types/mongoose-paginate": "^5.0.12",
+    "@types/mongoose-paginate-v2": "^1.6.5",
     "@types/node": "^18.7.3",
+    "apidoc": "^0.52.0",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
     "tslint": "^6.1.3",
