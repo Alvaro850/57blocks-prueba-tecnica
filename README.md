@@ -1,4 +1,4 @@
-# **Readme Prueba Técnica 57Blocks**
+# **Sample Code Alvaro Perafán**
 
 This Rest API is deesigned to fullfill all the requirements of the technique test that 57Blocks presents. 
 
