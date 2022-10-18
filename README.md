@@ -1,6 +1,6 @@
 # **Sample Code Alvaro Perafán**
 
-This Rest API is deesigned to fullfill all the requirements of the technique test that 57Blocks presents. 
+This Rest API is deesigned to fullfill all the requirements of a technique test. 
 
 The theme selected for this app are the Pokemons so the data saved on the database are Pokemons!
 
@@ -26,29 +26,29 @@ The application is developed on Nodejs as the runtime environment. It is coded o
 In order to run the application follow the next steps:
 1. clone the git repository using the following command: 
 ```bash
-PS C:/../../57-blocks-prueba-tecnica> git clone https://github.com/Alvaro850/57blocks-prueba-tecnica/
+PS C:/../../Sample-Code> git clone https://github.com/Alvaro850/Sample-Code/
 ```
 2. Then switch to the branch called "master" you can use the following command:
 ```bash
-PS C:/../../57-blocks-prueba-tecnica> git checkout origin master
+PS C:/../../Sample-Code> git checkout origin master
 ```
 3. Then copy the .env file in the main directory.
 4. Now you shoul install all the packages with the command:
 ```bash
-PS C:/../../57-blocks-prueba-tecnica> npm i
+PS C:/../../Sample-Code> npm i
 ```
 5. Next you should build the application in order to start it in production mode.
 ```bash
-PS C:/../../57-blocks-prueba-tecnica> npm run build
+PS C:/../../Sample-Code> npm run build
 ```
 6. At the end you should start the app with the following command:
 ```bash
-PS C:/../../57-blocks-prueba-tecnica> npm run start
+PS C:/../../Sample-Code> npm run start
 ```
 
 You should see a message like this:
 ```
-PS C:/../../57-blocks-prueba-tecnica> [INFO] August 16th 2022, 8:19:36 pm - [Aplicación]: Server is running on http://localhost:3000
+PS C:/../../Sample-Code> [INFO] August 16th 2022, 8:19:36 pm - [Aplicación]: Server is running on http://localhost:3000
 ```
 
 ## **Database**
@@ -164,31 +164,31 @@ To create an account there are some requirements:
 
 In order to start the application on developer mode, use the following command:
 ```bash
-PS C:/../../57-blocks-prueba-tecnica> npm run start:dev 
+PS C:/../../Sample-Code> npm run start:dev 
 ```
 
 In order to build the application (it is necessary because typescript couldn't be compiled by node) use the following command:
 ```bash
-PS C:/../../57-blocks-prueba-tecnica> npm run build
+PS C:/../../Sample-Code> npm run build
 ```
 
 In order to debug the code use the following command:
 ```bash
-PS C:/../../57-blocks-prueba-tecnica> npm run start:debug
+PS C:/../../Sample-Code> npm run start:debug
 ```
 
 In order to run the documentation use the following command: 
 ```bash
-PS C:/../../57-blocks-prueba-tecnica> npm run start:doc
+PS C:/../../Sample-Code> npm run start:doc
 ```
 
 In order to run the coded builded use the following command:
 ```bash
-PS C:/../../57-blocks-prueba-tecnica> npm run start
+PS C:/../../Sample-Code> npm run start
 ```
 
 To start the application on the correctly way follow this commands:
 ```bash
-PS C:/../../57-blocks-prueba-tecnica> npm run build
-PS C:/../../57-blocks-prueba-tecnica> npm run start
+PS C:/../../Sample-Code> npm run build
+PS C:/../../Sample-Code> npm run start
 ```
